@@ -1,29 +1,69 @@
 {
   "config_version": "1.0.1",
+  "privacy_policy_url": "https://zino.mrkotlinx.workers.dev/word-miner",
   "initial_coin_balance": 100,
   "extra_word_coin_reward": 1,
   "review_prompt_stage_interval": 5,
   "inactivity_reminder_threshold_hours": 24,
+
+  "reengagement_notifications_enabled": true,
+  "reengagement_notification_cooldown_hours": 24,
+  "reengagement_max_notifications_count": 3,
+  "welcome_back_reward_enabled": true,
+  "welcome_back_min_days_inactive": 2,
+  "welcome_back_base_diamonds": 20,
+  "welcome_back_max_diamonds": 75,
+
+  "daily_streak_enabled": true,
+  "daily_streak_cycle_days": 7,
+  "daily_streak_rewards": [
+    { "day": 1, "diamonds": 10, "premiumSpins": 0, "isMystery": false },
+    { "day": 2, "diamonds": 15, "premiumSpins": 0, "isMystery": false },
+    { "day": 3, "diamonds": 0,  "premiumSpins": 1, "isMystery": false },
+    { "day": 4, "diamonds": 25, "premiumSpins": 0, "isMystery": false },
+    { "day": 5, "diamonds": 30, "premiumSpins": 0, "isMystery": true  },
+    { "day": 6, "diamonds": 40, "premiumSpins": 0, "isMystery": false },
+    { "day": 7, "diamonds": 60, "premiumSpins": 1, "isMystery": false }
+  ],
+  "daily_streak_reset_on_miss": true,
+  "daily_streak_saver_enabled": true,
+  "daily_streak_auto_show_dialog": true,
+
   "base_reveal_letter_cost": 30,
   "base_reveal_answer_cost": 100,
   "discount_per_hint": 0.20,
   "max_hint_discount": 0.50,
   "minimum_hint_price": 5,
+
+  "rewarded_hint_enabled": true,
+  "rewarded_hint_word_guess_enabled": true,
+  "rewarded_hint_word_mine_enabled": true,
+  "rewarded_hint_word_chain_enabled": true,
+  "rewarded_hint_min_level": 1,
+
   "extra_letter_count": 6,
   "min_letter_pool_tiles": 5,
   "letter_hit_tolerance": 1.15,
+
   "music_master_gain": 0.80,
   "sound_effects_master_gain": 1.0,
-  "privacy_policy_url": "https://zino.mrkotlinx.workers.dev/word-miner",
+
   "gameplay_onboarding_enabled": true,
   "lucky_wheel_enabled": true,
+
   "update_enabled": true,
   "latest_version_code": 2,
   "minimum_supported_version_code": 2,
   "recommended_version_code": 2,
   "force_update": false,
+
   "ads": {
     "enabled": true,
+    "rewarded_ad_cooldown_seconds": 0,
+    "watch_ad_home_enabled": true,
+    "watch_ad_lucky_wheel_enabled": true,
+    "watch_ad_diamond_shop_enabled": true,
+    "watch_ad_hint_dialog_enabled": true,
     "app_open": {
       "enabled": true,
       "ad_unit_id": "ca-app-pub-3940256099942544/9257395921",
@@ -115,6 +155,27 @@
       "enabled": true,
       "ad_unit_id": "ca-app-pub-3940256099942544/5224354917",
       "reward_amount": 50,
+      "preload_on_splash": false,
+      "preload_timeout_ms": 3000
+    },
+    "hint_rewarded": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/5224354917",
+      "reward_amount": 1,
+      "preload_on_splash": false,
+      "preload_timeout_ms": 3000
+    },
+    "streak_saver_rewarded": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/5224354917",
+      "reward_amount": 1,
+      "preload_on_splash": false,
+      "preload_timeout_ms": 3000
+    },
+    "mystery_chest_rewarded": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/5224354917",
+      "reward_amount": 1,
       "preload_on_splash": false,
       "preload_timeout_ms": 3000
     }
