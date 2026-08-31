@@ -21,5 +21,102 @@
   "latest_version_code": 2,
   "minimum_supported_version_code": 2,
   "recommended_version_code": 2,
-  "force_update": false
+  "force_update": false,
+  "ads": {
+    "enabled": true,
+    "app_open": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/9257395921",
+      "preload_on_splash": true,
+      "preload_timeout_ms": 3000
+    },
+    "home_interstitial": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
+      "preload_on_splash": true,
+      "preload_timeout_ms": 3000
+    },
+    "home_banner_large": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/6300978111",
+      "preload_on_splash": false,
+      "preload_timeout_ms": 3000
+    },
+    "home_banner_small": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/6300978111",
+      "preload_on_splash": false,
+      "preload_timeout_ms": 3000
+    },
+    "settings_interstitial": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
+      "preload_on_splash": false,
+      "preload_timeout_ms": 3000
+    },
+    "settings_banner_small": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/6300978111",
+      "preload_on_splash": false,
+      "preload_timeout_ms": 3000
+    },
+    "lucky_wheel_interstitial": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
+      "preload_on_splash": false,
+      "preload_timeout_ms": 3000
+    },
+    "lucky_wheel_banner_medium": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/6300978111",
+      "preload_on_splash": false,
+      "preload_timeout_ms": 3000
+    },
+    "lucky_wheel_rewarded": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/5224354917",
+      "preload_on_splash": false,
+      "preload_timeout_ms": 3000
+    },
+    "word_guess_interstitial": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
+      "every_x_levels": 5,
+      "preload_on_splash": false,
+      "preload_timeout_ms": 3000
+    },
+    "word_mine_interstitial": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
+      "every_x_levels": 5,
+      "preload_on_splash": false,
+      "preload_timeout_ms": 3000
+    },
+    "word_chain_interstitial": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
+      "every_x_levels": 5,
+      "preload_on_splash": false,
+      "preload_timeout_ms": 3000
+    },
+    "word_mine_grid_banner": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/6300978111",
+      "preload_on_splash": false,
+      "preload_timeout_ms": 3000
+    },
+    "word_mine_answer_banner": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/6300978111",
+      "preload_on_splash": false,
+      "preload_timeout_ms": 3000
+    },
+    "diamond_rewarded": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-3940256099942544/5224354917",
+      "reward_amount": 50,
+      "preload_on_splash": false,
+      "preload_timeout_ms": 3000
+    }
+  }
 }
