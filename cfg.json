@@ -81,21 +81,21 @@
     "word_guess_interstitial": {
       "enabled": true,
       "ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
-      "every_x_levels": 5,
+      "every_x_levels": 1,
       "preload_on_splash": false,
       "preload_timeout_ms": 3000
     },
     "word_mine_interstitial": {
       "enabled": true,
       "ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
-      "every_x_levels": 5,
+      "every_x_levels": 1,
       "preload_on_splash": false,
       "preload_timeout_ms": 3000
     },
     "word_chain_interstitial": {
       "enabled": true,
       "ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
-      "every_x_levels": 5,
+      "every_x_levels": 1,
       "preload_on_splash": false,
       "preload_timeout_ms": 3000
     },
