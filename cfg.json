@@ -1,5 +1,5 @@
 {
-  "config_version": "1.0.0",
+  "config_version": "1.0.1",
   "initial_coin_balance": 100,
   "extra_word_coin_reward": 1,
   "review_prompt_stage_interval": 5,
@@ -17,9 +17,9 @@
   "privacy_policy_url": "https://zino.mrkotlinx.workers.dev/word-miner",
   "gameplay_onboarding_enabled": true,
   "lucky_wheel_enabled": true,
-  "update_enabled": false,
-  "latest_version_code": 0,
-  "minimum_supported_version_code": 0,
-  "recommended_version_code": 0,
+  "update_enabled": true,
+  "latest_version_code": 2,
+  "minimum_supported_version_code": 2,
+  "recommended_version_code": 2,
   "force_update": false
 }
