@@ -1,1 +1,25 @@
-{}
+{
+  "config_version": "1.0.0",
+  "initial_coin_balance": 100,
+  "extra_word_coin_reward": 1,
+  "review_prompt_stage_interval": 5,
+  "inactivity_reminder_threshold_hours": 24,
+  "base_reveal_letter_cost": 30,
+  "base_reveal_answer_cost": 100,
+  "discount_per_hint": 0.20,
+  "max_hint_discount": 0.50,
+  "minimum_hint_price": 5,
+  "extra_letter_count": 6,
+  "min_letter_pool_tiles": 5,
+  "letter_hit_tolerance": 1.15,
+  "music_master_gain": 0.80,
+  "sound_effects_master_gain": 1.0,
+  "privacy_policy_url": "https://zino.mrkotlinx.workers.dev/word-miner",
+  "gameplay_onboarding_enabled": true,
+  "lucky_wheel_enabled": true,
+  "update_enabled": false,
+  "latest_version_code": 0,
+  "minimum_supported_version_code": 0,
+  "recommended_version_code": 0,
+  "force_update": false
+}
