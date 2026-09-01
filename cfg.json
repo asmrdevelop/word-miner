@@ -1,5 +1,5 @@
 {
-  "config_version": "1.0.2",
+  "config_version": "1.0.3",
   "privacy_policy_url": "https://zino.mrkotlinx.workers.dev/word-miner",
   "initial_coin_balance": 100,
   "extra_word_coin_reward": 1,
@@ -65,25 +65,25 @@
     "watch_ad_diamond_shop_enabled": true,
     "watch_ad_hint_dialog_enabled": true,
     "app_open": {
-      "enabled": true,
+      "enabled": false,
       "ad_unit_id": "/23120430036,23132734254/co.newgates.wordminer_AppOpen_Unit",
       "preload_on_splash": true,
       "preload_timeout_ms": 3000
     },
     "home_interstitial": {
-      "enabled": true,
+      "enabled": false,
       "ad_unit_id": "/23120430036,23132734254/co.newgates.wordminer_Interstitial_Unit",
       "preload_on_splash": true,
       "preload_timeout_ms": 3000
     },
     "home_banner_large": {
-      "enabled": true,
+      "enabled": false,
       "ad_unit_id": "/23120430036,23132734254/co.newgates.wordminer_Banner_Unit",
       "preload_on_splash": false,
       "preload_timeout_ms": 3000
     },
     "home_banner_small": {
-      "enabled": true,
+      "enabled": false,
       "ad_unit_id": "/23120430036,23132734254/co.newgates.wordminer_Banner_Unit",
       "preload_on_splash": false,
       "preload_timeout_ms": 3000
@@ -107,7 +107,7 @@
       "preload_timeout_ms": 3000
     },
     "lucky_wheel_banner_medium": {
-      "enabled": true,
+      "enabled": false,
       "ad_unit_id": "/23120430036,23132734254/co.newgates.wordminer_Banner_Unit",
       "preload_on_splash": false,
       "preload_timeout_ms": 3000
@@ -119,34 +119,34 @@
       "preload_timeout_ms": 3000
     },
     "word_guess_interstitial": {
-      "enabled": true,
+      "enabled": false,
       "ad_unit_id": "/23120430036,23132734254/co.newgates.wordminer_Interstitial_Unit",
-      "every_x_levels": 1,
+      "every_x_levels": 3,
       "preload_on_splash": false,
       "preload_timeout_ms": 3000
     },
     "word_mine_interstitial": {
-      "enabled": true,
+      "enabled": false,
       "ad_unit_id": "/23120430036,23132734254/co.newgates.wordminer_Interstitial_Unit",
-      "every_x_levels": 1,
+      "every_x_levels": 3,
       "preload_on_splash": false,
       "preload_timeout_ms": 3000
     },
     "word_chain_interstitial": {
-      "enabled": true,
+      "enabled": false,
       "ad_unit_id": "/23120430036,23132734254/co.newgates.wordminer_Interstitial_Unit",
-      "every_x_levels": 1,
+      "every_x_levels": 3,
       "preload_on_splash": false,
       "preload_timeout_ms": 3000
     },
     "word_mine_grid_banner": {
-      "enabled": true,
+      "enabled": false,
       "ad_unit_id": "/23120430036,23132734254/co.newgates.wordminer_Banner_Unit",
       "preload_on_splash": false,
       "preload_timeout_ms": 3000
     },
     "word_mine_answer_banner": {
-      "enabled": true,
+      "enabled": false,
       "ad_unit_id": "/23120430036,23132734254/co.newgates.wordminer_Banner_Unit",
       "preload_on_splash": false,
       "preload_timeout_ms": 3000
